@@ -10,11 +10,13 @@ When processing the data is greater than the physical memory, you can use the "b
 
 git clone https://github.com/sdz7121211/bigdict
 
-copy bigdict to your project path.
+copy bigdict dir to your project path.
 
 # demo
 
 # BigDict 的初始化
+
+from bigdict.bigdict import bigdict
 
 tester = bigdict()
 
