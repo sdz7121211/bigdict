@@ -16,13 +16,13 @@ copy bigdict to your project path.
 
 # BigDict 的初始化
 
-null_dict = bigdict()
+tester = bigdict()
 
 argv_dict = bigdict({"a": "b"})
 
 # update 方法测试
 
-tester.update(tester_1)
+tester.update(argv_dict)
 
 # 赋值测试
 
@@ -55,7 +55,6 @@ print "b" in tester
 print [key for key in tester]
 
 for key in tester:
-
     print "key", key
     
 # clear 方法测试
