@@ -11,3 +11,64 @@ When processing the data is greater than the physical memory, you can use the "b
 git clone https://github.com/sdz7121211/bigdict
 
 copy bigdict to your project path.
+
+# demo
+
+# BigDict 的初始化
+
+null_dict = bigdict()
+
+argv_dict = bigdict({"a": "b"})
+
+# update 方法测试
+
+tester.update(tester_1)
+
+# 赋值测试
+
+tester["test"] = "testdddd"
+
+tester["test"] = "test2222"
+
+# setdefault 方法测试
+
+print tester.setdefault("test", "aaaaa")
+
+# keys、values、items 方法测试
+
+print tester.keys()
+
+print tester.values()
+
+print tester.items()
+
+# len属性测试
+
+print len(tester)
+
+# in 操作测试
+
+print "a" in tester
+
+print "b" in tester
+
+print [key for key in tester]
+
+for key in tester:
+
+    print "key", key
+    
+# clear 方法测试
+
+tester.clear()
+
+print len(tester)
+
+# 迭代器测试
+
+print list(tester.iterkeys())
+
+print list(tester.itervalues())
+
+
+
